@@ -1,6 +1,7 @@
 MySRaspiGW
 ==========
 
+![Regular GW](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW.png)
 ![KiCad 3D top view](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW-3Dtop.png)
 ![KiCad 3D bot view](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW-3Dbot.png)
 
@@ -17,13 +18,16 @@ Ordering and options
 
 Two different models are available, only difference is on the PCB shape.
 
-This is the Regular version, smallest form factor available with radio module being straight with GPIO pins.
-![MySRaspiGW regular PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW-PCB.png)
+Regular version is the smallest form factor available. Radio module is straight with GPIO pins.
+![MySRaspiGW regular Kicad PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW-PCB.png)
+![MySRaspiGW regular PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW_PCB.png)
 
 A [Pimoroni version](https://www.github.com/emc2cube/MySRaspiGW/tree/master/Pimoroni/) is also available, designed to fit inside the popular [Pimoroni](http://pimoroni.com) cases designed for the original Raspberry Pi model B, such as [Pibow](https://www.raspberrypi.org/blog/pibow/).
 
-Gerber files are included for both versions so you can order these PCB at your favorite PCB fab house.
-For an easy ordering process you can directly order these PCB from [OSHPark](https://oshpark.com/shared_projects/bg1hhzfQ) 3 for $1.05.
+This version can be [ordered directly assembled](https://www.openhardware.io/order/105/ASMBL1X)($20) on [openhardware.io](https://www.openhardware.io/view/105/MySRaspiGW)
+
+Gerber files are included so you can also order these PCB at your favorite PCB fab house and solder the few components yourself.
+For an easy ordering process you can directly order these PCB from [OSHPark](https://oshpark.com/shared_projects/bg1hhzfQ), 3 for $1.05.
 
 
 Installation
