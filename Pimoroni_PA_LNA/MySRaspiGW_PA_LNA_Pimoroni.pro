@@ -1,4 +1,4 @@
-update=Mon 22 Jun 2015 10:54:58 AM CEST
+update=Lundi 04 juillet 2016 02:38:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,5 +64,6 @@ LibName34=mysensors_radios
 LibName35=mysensors_regulators
 LibName36=mysensors_security
 LibName37=mysensors_sensors
+LibName38=maxim
 [general]
 version=1

@@ -23,7 +23,7 @@ Regular version is the smallest form factor available. Radio module is straight 
 
 A [Pimoroni version](https://www.github.com/emc2cube/MySRaspiGW/tree/master/Pimoroni_PA_LNA/) is also available, designed to fit inside the popular [Pimoroni](http://pimoroni.com) cases designed for the original Raspberry Pi model B, such as [Pibow](https://www.raspberrypi.org/blog/pibow/).
 
-This version can be [ordered directly assembled](https://www.openhardware.io/order/105/ASMBL1X)($20) on [openhardware.io](https://www.openhardware.io/view/105/MySRaspiGW)
+This version can be [ordered directly assembled](https://www.openhardware.io/order/116/ASMBL1X)($20) on [openhardware.io](https://www.openhardware.io/view/116/MySRaspiGW-PALNA)
 
 Gerber files are included so you can also order these PCB at your favorite PCB fab house and solder the few components yourself.
 For an easy ordering process you can directly order these PCB from [OSHPark](https://oshpark.com/shared_projects/183xUT60), 3 for $1.05.

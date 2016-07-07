@@ -25,7 +25,7 @@ Standard nRF24L01 module version:
 - Pimoroni version is designed to fit inside the popular [Pimoroni](http://pimoroni.com) cases designed for the original Raspberry Pi model B, such as [Pibow](https://www.raspberrypi.org/blog/pibow/).
 ![MySRaspiGW Pimoroni PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Pimoroni/img/MySRaspiGW_Pimoroni-PCB.png)
 
-The regular version can be [ordered directly assembled](https://www.openhardware.io/order/105/ASMBL1X)($20) on [openhardware.io](https://www.openhardware.io/view/105/MySRaspiGW)
+The regular version can be [ordered directly assembled](https://www.openhardware.io/order/105/ASMBL1X) ($20) on [openhardware.io](https://www.openhardware.io/view/105/MySRaspiGW)
 
 Gerber files are included for both versions so you can order these PCB at your favorite PCB fab house and solder the few components yourself.
 For an easy ordering process you can directly order these PCB without having to do anything else:
@@ -39,7 +39,7 @@ Amplified nRF24L01 PA+LNA module version:
 - Pimoroni version is designed to fit inside the popular [Pimoroni](http://pimoroni.com) cases designed for the original Raspberry Pi model B, such as [Pibow](https://www.raspberrypi.org/blog/pibow/).
 ![MySRaspiGW Pimoroni PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Pimoroni_PA_LNA/img/MySRaspiGW_Pimoroni-PCB.png)
 
-The regular version can be [ordered directly assembled](https://www.openhardware.io/order/105/ASMBL1X)($20) on [openhardware.io](https://www.openhardware.io/view/105/MySRaspiGW)
+The regular version can be [ordered directly assembled](https://www.openhardware.io/order/116/ASMBL1X) ($21) on [openhardware.io](https://www.openhardware.io/view/116/MySRaspiGW-PALNA)
 
 Gerber files are included for both versions so you can order these PCB at your favorite PCB fab house and solder the few components yourself.
 For an easy ordering process you can directly order these PCB without having to do anything else:
