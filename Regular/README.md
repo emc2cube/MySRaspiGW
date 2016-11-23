@@ -33,7 +33,7 @@ For an easy ordering process you can directly order these PCB from [OSHPark](htt
 Installation
 -------
 
-Plug the Gateway module to Raspberry Pi Pins 17 to 14 and follow the instructions on [MySensors forum](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway) to compile the code.
+Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instructions on [MySensors forum](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway) to compile the code.
 
 
 Revision history
