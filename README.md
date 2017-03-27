@@ -18,7 +18,7 @@ Ordering and options
 
 Four different models are available, differences being the radio used (standard or PA+LNA modules) and the PCB shape.
 
-Standard nRF24L01 module version:
+### Standard nRF24L01 module version:
 - Regular version is the smallest form factor available. Radio module is straight with GPIO pins.
 ![MySRaspiGW regular PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular/img/MySRaspiGW-PCB.png)
 
@@ -29,10 +29,10 @@ The regular version can be [ordered directly assembled](https://www.openhardware
 
 Gerber files are included for both versions so you can order these PCB at your favorite PCB fab house and solder the few components yourself.
 For an easy ordering process you can directly order these PCB without having to do anything else:
-- Regular PCB, [OSHPark](https://oshpark.com/shared_projects/bg1hhzfQ) 3 for $1.05
-- Pimoroni PCB, [OSHPark](https://oshpark.com/shared_projects/c99XW7uq) 3 for $1.45
+- Regular PCB, [PCBs.io](https://pcbs.io/share/rp2W3) 4 for $0.89, black 1.6mm PCB, ENIG finish or [OSHPark.com](https://oshpark.com/shared_projects/dWrubL3S) 3 for $1.10, purple 1.6mm PCB, ENIG finish.
+- Pimoroni PCB, [PCBs.io](https://pcbs.io/share/rN3VE) 4 for $1.20, black 1.6mm PCB, ENIG finish [OSHPark.com](https://oshpark.com/shared_projects/6JsJqI3E) 3 for $1.50, purple 1.6mm PCB, ENIG finish.
 
-Amplified nRF24L01 PA+LNA module version:
+### Amplified nRF24L01 PA+LNA module version:
 - Regular version is the smallest form factor available. Radio module is straight with GPIO pins.
 ![MySRaspiGW regular PCB](https://raw.githubusercontent.com/emc2cube/MySRaspiGW/master/Regular_PA_LNA/img/MySRaspiGW-PCB.png)
 
@@ -43,8 +43,8 @@ The regular version can be [ordered directly assembled](https://www.openhardware
 
 Gerber files are included for both versions so you can order these PCB at your favorite PCB fab house and solder the few components yourself.
 For an easy ordering process you can directly order these PCB without having to do anything else:
-- Regular PCB, [OSHPark](https://oshpark.com/shared_projects/183xUT60) 3 for $1.05
-- Pimoroni PCB, [OSHPark](https://oshpark.com/shared_projects/L0Y6czX5) 3 for $1.40
+- Regular PCB, [PCBs.io](https://pcbs.io/share/4Q7e1) 4 for $0.86, black 1.6mm PCB, ENIG finish or [OSHPark.com](https://oshpark.com/shared_projects/PaP5y1X2) 3 for $1.05, purple 1.6mm PCB, ENIG finish.
+- Pimoroni PCB, [PCBs.io](https://pcbs.io/share/4o2WQ) 4 for $1.15, black 1.6mm PCB, ENIG finish or [OSHPark.com](https://oshpark.com/shared_projects/2UrzYLvi) 3 for $1.40, purple 1.6mm PCB, ENIG finish.
 
 
 Installation
@@ -55,14 +55,15 @@ Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instruction
 - V1.1: For IRQ pin support add **--my-rf24-irq-pin=18** option to your ./configure
 - To be sure your pty device is easily identified by any controller use a ttyUSB name, for example add **--my-serial-pty=/dev/ttyUSBMySensorsGateway** option to your ./configure
 
-## Serial interface (pty)
+### Serial interface (pty)
 ./configure --my-gateway=serial --my-serial-is-pty --my-serial-pty=/dev/ttyUSBMySensorsGateway --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
 
-## Ethernet interface
+### Ethernet interface
 ./configure --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
 
 
 Revision history
 ----------------
 
+Version 1.1: IRQ pin support.
 Version 1.0: Initial release.

@@ -38,10 +38,10 @@ Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instruction
 - V1.1: For IRQ pin support add **--my-rf24-irq-pin=18** option to your ./configure
 - To be sure your pty device is easily identified by any controller use a ttyUSB name, for example add **--my-serial-pty=/dev/ttyUSBMySensorsGateway** option to your ./configure
 
-## Serial interface (pty)
+### Serial interface (pty)
 ./configure --my-gateway=serial --my-serial-is-pty --my-serial-pty=/dev/ttyUSBMySensorsGateway --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
 
-## Ethernet interface
+### Ethernet interface
 ./configure --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
 
 
