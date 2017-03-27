@@ -50,7 +50,16 @@ For an easy ordering process you can directly order these PCB without having to 
 Installation
 -------
 
-Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instructions on [MySensors forum](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway) to compile the code.
+Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instructions on [MySensors website](https://www.mysensors.org/build/raspberry) to compile the code.
+- If you are using a PA+LNA module and are experiencing some Tx errors add **--my-rf24-pa-level=RF24_PA_LOW** option to your ./configure
+- V1.1: For IRQ pin support add **--my-rf24-irq-pin=18** option to your ./configure
+- To be sure your pty device is easily identified by any controller use a ttyUSB name, for example add **--my-serial-pty=/dev/ttyUSBMySensorsGateway** option to your ./configure
+
+## Serial interface (pty)
+./configure --my-gateway=serial --my-serial-is-pty --my-serial-pty=/dev/ttyUSBMySensorsGateway --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
+
+## Ethernet interface
+./configure --my-rf24-pa-level=RF24_PA_LOW --my-rf24-irq-pin=18
 
 
 Revision history

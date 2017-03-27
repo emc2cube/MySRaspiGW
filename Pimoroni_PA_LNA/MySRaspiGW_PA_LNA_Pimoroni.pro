@@ -1,6 +1,10 @@
-update=Lundi 04 juillet 2016 02:38:15
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -25,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=$(MYSLOCAL)/mysensors_symbols
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,14 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=mysensors_arduino
-LibName31=mysensors_logic
-LibName32=mysensors_memories
-LibName33=mysensors_network
-LibName34=mysensors_radios
-LibName35=mysensors_regulators
-LibName36=mysensors_security
-LibName37=mysensors_sensors
-LibName38=maxim
-[general]
-version=1

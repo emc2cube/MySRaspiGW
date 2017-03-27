@@ -36,14 +36,15 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:MySRaspiGW_PA_LNA-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MySRaspiGW"
-Date "05/29/2016"
-Rev "1.0"
+Date "03/13/2017"
+Rev "1.1"
 Comp "https://github.com/emc2cube/MySRaspiGW/tree/master/Regular"
 Comment1 ""
 Comment2 ""
@@ -189,8 +190,10 @@ Connection ~ 4300 1750
 Connection ~ 4700 1750
 Connection ~ 4300 1050
 Connection ~ 4700 1050
-NoConn ~ 3750 1400
-NoConn ~ 1850 1200
 Wire Wire Line
 	1850 1300 2200 1300
+Text GLabel 1850 1200 2    60   Input ~ 0
+IRQ
+Text GLabel 3750 1400 2    60   Input ~ 0
+IRQ
 $EndSCHEMATC

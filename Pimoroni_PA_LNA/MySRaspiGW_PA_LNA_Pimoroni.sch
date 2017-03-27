@@ -36,14 +36,16 @@ LIBS:mysensors_radios
 LIBS:mysensors_regulators
 LIBS:mysensors_security
 LIBS:mysensors_sensors
+LIBS:maxim
+LIBS:MySRaspiGW_PA_LNA_Pimoroni-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MySRaspiGW_Pimoroni"
-Date "05/29/2016"
-Rev "1.0"
+Date "03/13/2017"
+Rev "1.1"
 Comp "https://github.com/emc2cube/MySRaspiGW/tree/master/Pimoroni"
 Comment1 ""
 Comment2 "For Pimoroni case (Pi model B)"
@@ -97,17 +99,6 @@ Wire Wire Line
 	4300 1750 4300 1550
 Wire Wire Line
 	4300 1250 4300 1050
-$Comp
-L CONN_02X04 P1
-U 1 1 573ACFFE
-P 1650 1350
-F 0 "P1" H 1650 1600 50  0000 C CNN
-F 1 "CONN_02X04" H 1650 1100 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 1650 150 50  0001 C CNN
-F 3 "" H 1650 150 50  0000 C CNN
-	1    1650 1350
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR02
 U 1 1 573AD162
@@ -191,6 +182,19 @@ Connection ~ 4300 1750
 Connection ~ 4700 1750
 Connection ~ 4300 1050
 Connection ~ 4700 1050
-NoConn ~ 3750 1400
-NoConn ~ 1900 1200
+$Comp
+L CONN_02X04 P1
+U 1 1 573ACFFE
+P 1650 1350
+F 0 "P1" H 1650 1600 50  0000 C CNN
+F 1 "CONN_02X04" H 1650 1100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x04" H 1650 150 50  0001 C CNN
+F 3 "" H 1650 150 50  0000 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1200 2    60   Input ~ 0
+IRQ
+Text GLabel 3750 1400 2    60   Input ~ 0
+IRQ
 $EndSCHEMATC

@@ -1,5 +1,5 @@
 M48
-;DRILL file {KiCad 4.0.2-stable} date Dimanche 03 juillet 2016 23:01:53
+;DRILL file {KiCad 4.0.4-stable} date Monday 13 March 2017 'à' 21:28:38
 ;FORMAT={-:-/ absolute / metric / decimal}
 FMAT,2
 METRIC,TZ
@@ -10,8 +10,9 @@ G90
 G05
 M71
 T1
-X55.25Y-42.106
-X58.285Y-42.04
+X54.736Y-32.21
+X55.069Y-42.123
+X58.536Y-42.65
 T2
 X61.1Y-36.3
 X61.1Y-38.84
