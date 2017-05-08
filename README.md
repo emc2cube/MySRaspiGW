@@ -65,5 +65,5 @@ Plug the Gateway module to Raspberry Pi Pins 17 to 24 and follow the instruction
 Revision history
 ----------------
 
-Version 1.1: IRQ pin support.
-Version 1.0: Initial release.
+- Version 1.1: IRQ pin support.
+- Version 1.0: Initial release.
